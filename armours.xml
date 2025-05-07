@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="24" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Armour">
+    <void property="attackModifier">
+     <int>1</int>
+    </void>
+    <void property="defenseModifier">
+     <int>2</int>
+    </void>
+    <void property="name">
+     <string>Armadura de cuero</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Armour">
+    <void property="attackModifier">
+     <int>2</int>
+    </void>
+    <void property="defenseModifier">
+     <int>2</int>
+    </void>
+    <void property="name">
+     <string>Armadura de bronce</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Armour">
+    <void property="attackModifier">
+     <int>2</int>
+    </void>
+    <void property="defenseModifier">
+     <int>1</int>
+    </void>
+    <void property="name">
+     <string>Armadura de oro</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Armour">
+    <void property="attackModifier">
+     <int>3</int>
+    </void>
+    <void property="defenseModifier">
+     <int>2</int>
+    </void>
+    <void property="name">
+     <string>Armadura de acero</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

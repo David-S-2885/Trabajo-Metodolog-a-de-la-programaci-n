@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="24" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Weapon">
+    <void property="name">
+     <string>Espada Larga</string>
+    </void>
+    <void property="attackModifier">
+     <int>3</int>
+    </void>
+    <void property="defenseModifier">
+     <int>1</int>
+    </void>
+    <void property="bothHands">
+     <boolean>true</boolean>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Weapon">
+    <void property="name">
+     <string>Daga</string>
+    </void>
+    <void property="attackModifier">
+     <int>2</int>
+    </void>
+    <void property="defenseModifier">
+     <int>2</int>
+    </void>
+    <void property="bothHands">
+     <boolean>false</boolean>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="24" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Discipline">
+    <void property="attackValue">
+     <int>2</int>
+    </void>
+    <void property="bloodCost">
+     <int>2</int>
+    </void>
+    <void property="defenseValue">
+     <int>2</int>
+    </void>
+    <void property="name">
+     <string>Dominación</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Discipline">
+    <void property="attackValue">
+     <int>3</int>
+    </void>
+    <void property="bloodCost">
+     <int>1</int>
+    </void>
+    <void property="defenseValue">
+     <int>1</int>
+    </void>
+    <void property="name">
+     <string>Rapidez</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Discipline">
+    <void property="attackValue">
+     <int>1</int>
+    </void>
+    <void property="bloodCost">
+     <int>3</int>
+    </void>
+    <void property="defenseValue">
+     <int>3</int>
+    </void>
+    <void property="name">
+     <string>Resistencia</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="24" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Strength">
+    <void property="name">
+     <string>Voluntad de Hierro</string>
+    </void>
+    <void property="value">
+     <int>5</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Strength">
+    <void property="name">
+     <string>Velocidad</string>
+    </void>
+    <void property="value">
+     <int>4</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Strength">
+    <void property="name">
+     <string>Noche</string>
+    </void>
+    <void property="value">
+     <int>3</int>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

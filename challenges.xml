@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="24.0.1" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Challenge" id="Challenge0">
+    <void property="activeStrenghtsDefiant">
+     <object class="java.util.ArrayList" id="ArrayList0">
+      <void method="add">
+       <object class="Strength">
+        <void property="name">
+         <string>Voluntad de Hierro</string>
+        </void>
+        <void property="value">
+         <int>5</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="activeStrenghtsDefied">
+     <object class="java.util.ArrayList" id="ArrayList1">
+      <void method="add">
+       <object class="Strength">
+        <void property="name">
+         <string>Noche</string>
+        </void>
+        <void property="value">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="activeWeaknessesDefiant">
+     <object class="java.util.ArrayList" id="ArrayList2"/>
+    </void>
+    <void property="activeWeaknessesDefied">
+     <object class="java.util.ArrayList" id="ArrayList3">
+      <void method="add">
+       <object class="Weakness">
+        <void property="name">
+         <string>Luz</string>
+        </void>
+        <void property="value">
+         <int>4</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="betGold">
+     <int>500</int>
+    </void>
+    <void property="defiant">
+     <object class="Player" id="Player0">
+      <void property="character">
+       <object class="Hunter">
+        <void property="activeArmour">
+         <object class="Armour" id="Armour0">
+          <void property="attackModifier">
+           <int>3</int>
+          </void>
+          <void property="defenseModifier">
+           <int>2</int>
+          </void>
+          <void property="name">
+           <string>Armadura de acero</string>
+          </void>
+         </object>
+        </void>
+        <void property="activeEquipment">
+         <object class="java.util.ArrayList">
+          <void method="add">
+           <object class="Weapon" id="Weapon0">
+            <void property="attackModifier">
+             <int>2</int>
+            </void>
+            <void property="defenseModifier">
+             <int>2</int>
+            </void>
+            <void property="name">
+             <string>Daga</string>
+            </void>
+           </object>
+          </void>
+          <void method="add">
+           <object idref="Armour0"/>
+          </void>
+         </object>
+        </void>
+        <void property="activeWeapons">
+         <object class="java.util.ArrayList">
+          <void method="add">
+           <object idref="Weapon0"/>
+          </void>
+         </object>
+        </void>
+        <void property="armours">
+         <null/>
+        </void>
+        <void property="flunkies">
+         <object class="java.util.ArrayList">
+          <void method="add">
+           <object class="Demon">
+            <void property="health">
+             <int>3</int>
+            </void>
+            <void property="name">
+             <string>2</string>
+            </void>
+            <void property="pact">
+             <string>Pacto estándard</string>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+        <void property="gold">
+         <int>950</int>
+        </void>
+        <void property="health">
+         <int>5</int>
+        </void>
+        <void property="name">
+         <string>2</string>
+        </void>
+        <void property="power">
+         <int>4</int>
+        </void>
+        <void property="specialAbility">
+         <object class="Talent">
+          <void property="attackValue">
+           <int>2</int>
+          </void>
+          <void property="defenseValue">
+           <int>2</int>
+          </void>
+          <void property="name">
+           <string>Escudo humano</string>
+          </void>
+         </object>
+        </void>
+        <void property="strenghts">
+         <object idref="ArrayList0"/>
+        </void>
+        <void property="weaknesses">
+         <object idref="ArrayList2"/>
+        </void>
+        <void property="weapons">
+         <null/>
+        </void>
+        <void property="will">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void property="gainedGold">
+       <int>500</int>
+      </void>
+      <void property="lostGold">
+       <int>-50</int>
+      </void>
+      <void property="name">
+       <string>dex2</string>
+      </void>
+      <void property="nick">
+       <string>ratainmunda2</string>
+      </void>
+      <void property="notifications">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="Notification">
+          <void property="message">
+           <string>Tu desafío al jugador dex ha sido validado.</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="Notification">
+          <void property="message">
+           <string>El usuario dex ha aceptado tu desafío y ha finalizado en una victoria. Has ganado +500 de oro. Resumen del combate: 
+Ronda 1 : Ataque fallido. El rival ha fallado su ataque. 
+Ronda 2 : Has inflingido 1 de daño a los esbirros del rival. El rival ha fallado su ataque. 
+Ronda 3 : Has inflingido 1 de daño a los esbirros del rival. Tus esbirros han recibido 1 de daño. 
+Ronda 4 : Has infligido 1 de daño al rival. El rival ha fallado su ataque. 
+Ronda 5 : Has infligido 1 de daño al rival. El rival ha fallado su ataque. 
+Ronda 6 : Has infligido 1 de daño al rival. El rival ha fallado su ataque. 
+Ronda 7 : Has infligido 1 de daño al rival. Tus esbirros han recibido 1 de daño. 
+Ronda 8 : Ataque fallido. El rival ha fallado su ataque. 
+Ronda 9 : Has infligido 1 de daño al rival. El rival ha fallado su ataque. 
+</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="Notification">
+          <void property="message">
+           <string>El usuario dex te ha desafiado.</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="Notification">
+          <void property="message">
+           <string>Tu desafío al jugador dex ha sido validado.</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="Notification">
+          <void property="message">
+           <string>El usuario dex te ha desafiado.</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="password">
+       <string>ratainmunda2</string>
+      </void>
+      <void property="pendingChallenges">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="Challenge" id="Challenge1">
+          <void property="activeStrenghtsDefiant">
+           <object idref="ArrayList1"/>
+          </void>
+          <void property="activeStrenghtsDefied">
+           <object idref="ArrayList0"/>
+          </void>
+          <void property="activeWeaknessesDefiant">
+           <object idref="ArrayList3"/>
+          </void>
+          <void property="activeWeaknessesDefied">
+           <object idref="ArrayList2"/>
+          </void>
+          <void property="betGold">
+           <int>500</int>
+          </void>
+          <void property="defiant">
+           <object class="Player" id="Player1">
+            <void property="character">
+             <object class="Vampire">
+              <void property="activeArmour">
+               <object class="Armour" id="Armour1">
+                <void property="defenseModifier">
+                 <int>2</int>
+                </void>
+                <void property="name">
+                 <string>Armadura de cuero</string>
+                </void>
+               </object>
+              </void>
+              <void property="activeEquipment">
+               <object class="java.util.ArrayList">
+                <void method="add">
+                 <object class="Weapon" id="Weapon1">
+                  <void property="attackModifier">
+                   <int>3</int>
+                  </void>
+                  <void property="name">
+                   <string>Espada Larga</string>
+                  </void>
+                 </object>
+                </void>
+                <void method="add">
+                 <object idref="Armour1"/>
+                </void>
+               </object>
+              </void>
+              <void property="activeWeapons">
+               <object class="java.util.ArrayList">
+                <void method="add">
+                 <object idref="Weapon1"/>
+                </void>
+               </object>
+              </void>
+              <void property="armours">
+               <null/>
+              </void>
+              <void property="flunkies">
+               <object class="java.util.ArrayList">
+                <void method="add">
+                 <object class="Ghoul">
+                  <void property="dependency">
+                   <int>3</int>
+                  </void>
+                  <void property="health">
+                   <int>2</int>
+                  </void>
+                  <void property="name">
+                   <string>1</string>
+                  </void>
+                 </object>
+                </void>
+               </object>
+              </void>
+              <void property="gold">
+               <int>550</int>
+              </void>
+              <void property="name">
+               <string>1</string>
+              </void>
+              <void property="power">
+               <int>3</int>
+              </void>
+              <void property="specialAbility">
+               <object class="Discipline">
+                <void property="attackValue">
+                 <int>2</int>
+                </void>
+                <void property="bloodCost">
+                 <int>2</int>
+                </void>
+                <void property="defenseValue">
+                 <int>2</int>
+                </void>
+                <void property="name">
+                 <string>Dominación</string>
+                </void>
+               </object>
+              </void>
+              <void property="strenghts">
+               <object idref="ArrayList1"/>
+              </void>
+              <void property="weaknesses">
+               <object idref="ArrayList3"/>
+              </void>
+              <void property="weapons">
+               <null/>
+              </void>
+             </object>
+            </void>
+            <void property="gainedGold">
+             <int>50</int>
+            </void>
+            <void property="lostGold">
+             <int>500</int>
+            </void>
+            <void property="name">
+             <string>dex</string>
+            </void>
+            <void property="nick">
+             <string>dex</string>
+            </void>
+            <void property="notifications">
+             <object class="java.util.ArrayList">
+              <void method="add">
+               <object class="Notification">
+                <void property="message">
+                 <string>El usuario ratainmunda2 te ha desafiado.</string>
+                </void>
+               </object>
+              </void>
+              <void method="add">
+               <object class="Notification">
+                <void property="message">
+                 <string>Tu desafío al jugador ratainmunda2 ha sido validado.</string>
+                </void>
+               </object>
+              </void>
+              <void method="add">
+               <object class="Notification">
+                <void property="message">
+                 <string>El usuario ratainmunda2 ha rechazado tu desafío. Has ganado 50 de oro.</string>
+                </void>
+               </object>
+              </void>
+              <void method="add">
+               <object class="Notification">
+                <void property="message">
+                 <string>El usuario ratainmunda2 te ha desafiado.</string>
+                </void>
+               </object>
+              </void>
+              <void method="add">
+               <object class="Notification">
+                <void property="message">
+                 <string>Tu desafío al jugador ratainmunda2 ha sido validado.</string>
+                </void>
+               </object>
+              </void>
+             </object>
+            </void>
+            <void property="password">
+             <string>ratainmunda</string>
+            </void>
+            <void property="pendingChallenges">
+             <object class="java.util.ArrayList">
+              <void method="add">
+               <object idref="Challenge0"/>
+              </void>
+             </object>
+            </void>
+            <void property="registerNumber">
+             <string>M17LR</string>
+            </void>
+           </object>
+          </void>
+          <void property="defied">
+           <object idref="Player0"/>
+          </void>
+          <void property="state">
+           <object class="java.lang.Enum" id="State0" method="valueOf">
+            <class>State</class>
+            <string>pending</string>
+           </object>
+          </void>
+          <void property="validatedChallenge">
+           <boolean>true</boolean>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="registerNumber">
+       <string>V47HS</string>
+      </void>
+     </object>
+    </void>
+    <void property="defied">
+     <object idref="Player1"/>
+    </void>
+    <void property="state">
+     <object idref="State0"/>
+    </void>
+    <void property="validatedChallenge">
+     <boolean>true</boolean>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Challenge1"/>
+  </void>
+  <void method="add">
+   <object class="Challenge">
+    <void property="activeStrenghtsDefiant">
+     <object class="java.util.ArrayList" id="ArrayList4">
+      <void method="add">
+       <object class="Strength">
+        <void property="name">
+         <string>Noche</string>
+        </void>
+        <void property="value">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="activeStrenghtsDefied">
+     <object class="java.util.ArrayList" id="ArrayList5">
+      <void method="add">
+       <object class="Strength">
+        <void property="name">
+         <string>Voluntad de Hierro</string>
+        </void>
+        <void property="value">
+         <int>5</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="activeWeaknessesDefiant">
+     <object class="java.util.ArrayList" id="ArrayList6">
+      <void method="add">
+       <object class="Weakness">
+        <void property="name">
+         <string>Luz</string>
+        </void>
+        <void property="value">
+         <int>4</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="activeWeaknessesDefied">
+     <object class="java.util.ArrayList" id="ArrayList7"/>
+    </void>
+    <void property="betGold">
+     <int>500</int>
+    </void>
+    <void property="defiant">
+     <object class="Player" id="Player2">
+      <void property="character">
+       <object class="Vampire">
+        <void property="activeArmour">
+         <object class="Armour" id="Armour2">
+          <void property="attackModifier">
+           <int>1</int>
+          </void>
+          <void property="defenseModifier">
+           <int>2</int>
+          </void>
+          <void property="name">
+           <string>Armadura de cuero</string>
+          </void>
+         </object>
+        </void>
+        <void property="activeEquipment">
+         <object class="java.util.ArrayList">
+          <void method="add">
+           <object class="Weapon" id="Weapon2">
+            <void property="attackModifier">
+             <int>3</int>
+            </void>
+            <void property="bothHands">
+             <boolean>true</boolean>
+            </void>
+            <void property="defenseModifier">
+             <int>1</int>
+            </void>
+            <void property="name">
+             <string>Espada Larga</string>
+            </void>
+           </object>
+          </void>
+          <void method="add">
+           <object idref="Armour2"/>
+          </void>
+         </object>
+        </void>
+        <void property="activeWeapons">
+         <object class="java.util.ArrayList">
+          <void method="add">
+           <object idref="Weapon2"/>
+          </void>
+         </object>
+        </void>
+        <void property="age">
+         <int>1</int>
+        </void>
+        <void property="armours">
+         <null/>
+        </void>
+        <void property="flunkies">
+         <object class="java.util.ArrayList">
+          <void method="add">
+           <object class="Ghoul">
+            <void property="dependency">
+             <int>3</int>
+            </void>
+            <void property="health">
+             <int>2</int>
+            </void>
+            <void property="name">
+             <string>1</string>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+        <void property="name">
+         <string>1</string>
+        </void>
+        <void property="power">
+         <int>3</int>
+        </void>
+        <void property="specialAbility">
+         <object class="Discipline">
+          <void property="attackValue">
+           <int>2</int>
+          </void>
+          <void property="bloodCost">
+           <int>2</int>
+          </void>
+          <void property="defenseValue">
+           <int>2</int>
+          </void>
+          <void property="name">
+           <string>Dominación</string>
+          </void>
+         </object>
+        </void>
+        <void property="strenghts">
+         <object idref="ArrayList4"/>
+        </void>
+        <void property="weaknesses">
+         <object idref="ArrayList6"/>
+        </void>
+        <void property="weapons">
+         <null/>
+        </void>
+       </object>
+      </void>
+      <void property="defeats">
+       <int>3</int>
+      </void>
+      <void property="gainedGold">
+       <int>50</int>
+      </void>
+      <void property="lostGold">
+       <int>1500</int>
+      </void>
+      <void property="name">
+       <string>dex</string>
+      </void>
+      <void property="nick">
+       <string>dex</string>
+      </void>
+      <void property="notifications">
+       <object class="java.util.ArrayList"/>
+      </void>
+      <void property="password">
+       <string>ratainmunda</string>
+      </void>
+      <void property="pendingChallenges">
+       <object class="java.util.ArrayList"/>
+      </void>
+      <void property="registerNumber">
+       <string>M17LR</string>
+      </void>
+     </object>
+    </void>
+    <void property="defied">
+     <object class="Player" id="Player3">
+      <void property="character">
+       <object class="Hunter">
+        <void property="activeArmour">
+         <object class="Armour" id="Armour3">
+          <void property="attackModifier">
+           <int>3</int>
+          </void>
+          <void property="defenseModifier">
+           <int>2</int>
+          </void>
+          <void property="name">
+           <string>Armadura de acero</string>
+          </void>
+         </object>
+        </void>
+        <void property="activeEquipment">
+         <object class="java.util.ArrayList">
+          <void method="add">
+           <object class="Weapon" id="Weapon3">
+            <void property="attackModifier">
+             <int>2</int>
+            </void>
+            <void property="defenseModifier">
+             <int>2</int>
+            </void>
+            <void property="name">
+             <string>Daga</string>
+            </void>
+           </object>
+          </void>
+          <void method="add">
+           <object idref="Armour3"/>
+          </void>
+         </object>
+        </void>
+        <void property="activeWeapons">
+         <object class="java.util.ArrayList">
+          <void method="add">
+           <object idref="Weapon3"/>
+          </void>
+         </object>
+        </void>
+        <void property="armours">
+         <null/>
+        </void>
+        <void property="flunkies">
+         <object class="java.util.ArrayList">
+          <void method="add">
+           <object class="Demon">
+            <void property="health">
+             <int>3</int>
+            </void>
+            <void property="name">
+             <string>2</string>
+            </void>
+            <void property="pact">
+             <string>Pacto estándard</string>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+        <void property="gold">
+         <int>1950</int>
+        </void>
+        <void property="health">
+         <int>5</int>
+        </void>
+        <void property="name">
+         <string>2</string>
+        </void>
+        <void property="power">
+         <int>4</int>
+        </void>
+        <void property="specialAbility">
+         <object class="Talent">
+          <void property="attackValue">
+           <int>2</int>
+          </void>
+          <void property="defenseValue">
+           <int>2</int>
+          </void>
+          <void property="name">
+           <string>Escudo humano</string>
+          </void>
+         </object>
+        </void>
+        <void property="strenghts">
+         <object idref="ArrayList5"/>
+        </void>
+        <void property="weaknesses">
+         <object idref="ArrayList7"/>
+        </void>
+        <void property="weapons">
+         <null/>
+        </void>
+        <void property="will">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void property="gainedGold">
+       <int>1500</int>
+      </void>
+      <void property="lostGold">
+       <int>-50</int>
+      </void>
+      <void property="name">
+       <string>dex2</string>
+      </void>
+      <void property="nick">
+       <string>ratainmunda2</string>
+      </void>
+      <void property="notifications">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="Notification">
+          <void property="message">
+           <string>El usuario dex ha aceptado tu desafío y ha finalizado en una victoria. Has ganado +500 de oro. Resumen del combate: 
+Ronda 1 : Has inflingido 1 de daño a los esbirros del rival. El rival ha fallado su ataque. 
+Ronda 2 : Has inflingido 1 de daño a los esbirros del rival. El rival ha fallado su ataque. 
+Ronda 3 : Has infligido 1 de daño al rival. Tus esbirros han recibido 1 de daño. 
+Ronda 4 : Has infligido 1 de daño al rival. El rival ha fallado su ataque. 
+Ronda 5 : Has infligido 1 de daño al rival. El rival ha fallado su ataque. 
+Ronda 6 : Has infligido 1 de daño al rival. Tus esbirros han recibido 1 de daño. 
+Ronda 7 : Has infligido 1 de daño al rival. El rival ha fallado su ataque. 
+</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="password">
+       <string>ratainmunda2</string>
+      </void>
+      <void property="pendingChallenges">
+       <object class="java.util.ArrayList"/>
+      </void>
+      <void property="registerNumber">
+       <string>V47HS</string>
+      </void>
+      <void property="victories">
+       <int>3</int>
+      </void>
+     </object>
+    </void>
+    <void property="state">
+     <object class="java.lang.Enum" id="State1" method="valueOf">
+      <class>State</class>
+      <string>accepted</string>
+     </object>
+    </void>
+    <void property="validatedChallenge">
+     <boolean>true</boolean>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Challenge">
+    <void property="activeStrenghtsDefiant">
+     <object idref="ArrayList5"/>
+    </void>
+    <void property="activeStrenghtsDefied">
+     <object idref="ArrayList4"/>
+    </void>
+    <void property="activeWeaknessesDefiant">
+     <object idref="ArrayList7"/>
+    </void>
+    <void property="activeWeaknessesDefied">
+     <object idref="ArrayList6"/>
+    </void>
+    <void property="betGold">
+     <int>500</int>
+    </void>
+    <void property="defiant">
+     <object idref="Player3"/>
+    </void>
+    <void property="defied">
+     <object idref="Player2"/>
+    </void>
+    <void property="state">
+     <object idref="State1"/>
+    </void>
+    <void property="validatedChallenge">
+     <boolean>true</boolean>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
